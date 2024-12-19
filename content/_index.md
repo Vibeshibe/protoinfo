@@ -11,11 +11,11 @@ draft = false
 </style>
 
 <style>
-    .container, .button-wrapper {
+    .container {
         display: flex;
         align-items: center;
         max-width: 800px;
-        margin: -50px;
+        margin-top: -50px;
         background: transparent;
         padding: 20px;
         border-radius: 8px;
