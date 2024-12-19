@@ -1,0 +1,17 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Protogens.Info"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+logo = "PW vibingshibe.png"
+secondaryLogo = "PW vibingshibe.png"
+description = "The hub for everything protogen"
+
+[params.author]
+name = "Jay"

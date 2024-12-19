@@ -1,0 +1,40 @@
+[[main]]
+name = "Discord"
+url = "https://status.shibabox.eu"
+weight = 10
+
+[[main]]
+name = "Placeholder"
+weight = 30
+
+[[main]]
+name = "Maw.Best"
+parent = "Placeholder"
+url = "https://maw.best"
+weight = 10
+
+[[main]]
+name = "Furrcard"
+parent = "Placeholder"
+url = "https://furrcard.com"
+weight = 20
+
+[[main]]
+name = "Placeholder Too"
+weight = 20
+
+[[main]]
+name = "Fediverse"
+parent = "Placeholder Too"
+url = "https://social.shibabox.eu"
+weight = 20
+
+[[footer]]
+name = "Artwork by YegArtist" 
+url = "https://x.com/AtlasInu"
+weight = 20
+
+[[footer]]
+name = "Logo by SirBurnt" 
+url = "https://x.com/kodadeer"
+weight = 10
