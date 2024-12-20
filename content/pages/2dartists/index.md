@@ -7,7 +7,7 @@ draft = false
 <style>
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Exactly 3 columns */
+    grid-template-columns: repeat(2, 1fr); /* Exactly 3 columns */
     gap: 20px; /* Space between cards */
 }
 
