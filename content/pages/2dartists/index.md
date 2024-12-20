@@ -17,7 +17,7 @@ draft = false
     align-items: center;
     background-color: #1e1e1e;
     border-radius: 12px;
-    padding: 15px;
+    padding: 10px;
     gap: 35px;
     border: 2px solid #ffffff;
     box-sizing: border-box;
@@ -38,24 +38,43 @@ draft = false
 }
 
 .card .artist-info .name {
-    font-size: 1.2rem;
+    font-size: 4rem;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
-.card .icons {
+.social-links {
     display: flex;
-    justify-content: flex-start;
-    gap: 8px;
-    width: fit-content;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+@media (min-width: 768px) {
+    .social-links {
+        justify-content: flex-start;
+    }
+}
+.social-link {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: transform 0.3s, background-color 0.3s;
+}
+.social-link:hover {
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
 }
 
-.icons span {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: #ffffff;
-    display: inline-block;
+.social-link:hover svg {
+    fill: #d97706
 }
 
 .tags {
@@ -95,73 +114,21 @@ draft = false
 <div class="grid" id="card-grid">
 <div class="card">
             <div class="artist-info">
-                <img src="placeholder2.png" alt="Artist" class="medium-zoom-image">
+                <img src="https://coolkoinu.carrd.co/assets/images/image03.png?v=275d7404" alt="Artist" class="medium-zoom-image">
             </div>
             <div style="
     display: flex;
     flex-direction: column;">
-                <span class="name">Testy1</span>
-                <div class="icons">
-                        <a href="https://t.me/Zenonclaw" class="social-link" aria-label="Telegram">
-                            <i class="fab fa-telegram-plane"></i>
-                        </a>
-                        <a href="https://zenonclaw.tumblr.com" class="social-link" aria-label="Tumblr">
-                            <i class="fab fa-tumblr"></i>
-                        </a>
-                        <a href="https://x.com/zenonclaw" class="social-link" aria-label="Twitter">
+                <span class="name">CoolKoinu</span>
+                <div class="social-links">
+                        <a href="https://x.com/CoolKoinu" class="social-link" aria-label="Twitter">
                             <i class="fa-brands fa-x-twitter"></i>
                         </a>
-                </div>
-            </div>
-            <div class="tags">
-                <span class="tag tag-sfw">SFW</span>
-                <span class="tag tag-style">Realistic</span>
-            </div>
-        </div>
-
-<div class="card">
-            <div class="artist-info">
-                <img src="placeholder.png" alt="Artist" class="medium-zoom-image">
-            </div>
-            <div style="
-    display: flex;
-    flex-direction: column;">
-                <span class="name">Testy2</span>
-                <div class="icons">
-                        <a href="https://t.me/Zenonclaw" class="social-link" aria-label="Telegram">
-                            <i class="fab fa-telegram-plane"></i>
+                        <a href="https://bsky.app/profile/coolkoinu.bsky.social" class="social-link" aria-label="Bluesky">
+                            <i class="fab fa-bluesky"></i>
                         </a>
-                        <a href="https://zenonclaw.tumblr.com" class="social-link" aria-label="Tumblr">
-                            <i class="fab fa-tumblr"></i>
-                        </a>
-                        <a href="https://x.com/zenonclaw" class="social-link" aria-label="Twitter">
-                            <i class="fa-brands fa-x-twitter"></i>
-                        </a>
-                </div>
-            </div>
-            <div class="tags">
-                <span class="tag tag-nsfw">NSFW</span>
-                <span class="tag tag-style">Toony</span>
-            </div>
-        </div>
-
-<div class="card">
-            <div class="artist-info">
-                <img src="placeholder.png" alt="Artist" class="medium-zoom-image">
-            </div>
-            <div style="
-    display: flex;
-    flex-direction: column;">
-                <span class="name">Testy3</span>
-                <div class="icons">
-                        <a href="https://t.me/Zenonclaw" class="social-link" aria-label="Telegram">
-                            <i class="fab fa-telegram-plane"></i>
-                        </a>
-                        <a href="https://zenonclaw.tumblr.com" class="social-link" aria-label="Tumblr">
-                            <i class="fab fa-tumblr"></i>
-                        </a>
-                        <a href="https://x.com/zenonclaw" class="social-link" aria-label="Twitter">
-                            <i class="fa-brands fa-x-twitter"></i>
+                        <a href="https://coolkoinu.carrd.co/" class="social-link" aria-label="Website">
+                            <i class="fa fa-globe"></i>
                         </a>
                 </div>
             </div>
@@ -173,27 +140,70 @@ draft = false
 
 <div class="card">
             <div class="artist-info">
-                <img src="placeholder2.png" alt="Artist" class="medium-zoom-image">
+                <img src="https://pbs.twimg.com/profile_images/1845244376446009345/vxh_z69v_400x400.jpg" alt="Artist" class="medium-zoom-image">
             </div>
             <div style="
     display: flex;
     flex-direction: column;">
-                <span class="name">Testy4</span>
-                <div class="icons">
-                        <a href="https://t.me/Zenonclaw" class="social-link" aria-label="Telegram">
-                            <i class="fab fa-telegram-plane"></i>
-                        </a>
-                        <a href="https://zenonclaw.tumblr.com" class="social-link" aria-label="Tumblr">
-                            <i class="fab fa-tumblr"></i>
-                        </a>
-                        <a href="https://x.com/zenonclaw" class="social-link" aria-label="Twitter">
+                <span class="name">Colvery</span>
+                <div class="social-links">
+                        <a href="https://x.com/Colvyri" class="social-link" aria-label="Twitter">
                             <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="https://bsky.app/profile/colvery.bsky.social" class="social-link" aria-label="Bluesky">
+                            <i class="fab fa-bluesky"></i>
                         </a>
                 </div>
             </div>
             <div class="tags">
-                <span class="tag tag-nsfw">NSFW</span>
-                <span class="tag tag-style">Realistic</span>
+                <span class="tag tag-sfw">SFW</span>
+                <span class="tag tag-style">Toony</span>
+            </div>
+        </div>
+
+<div class="card">
+            <div class="artist-info">
+                <img src="https://pbs.twimg.com/profile_images/1801716228878176257/JCswU1h8_400x400.jpg" alt="Artist" class="medium-zoom-image">
+            </div>
+            <div style="
+    display: flex;
+    flex-direction: column;">
+                <span class="name">SirBurnt</span>
+                <div class="social-links">
+                        <a href="https://x.com/Sir_Burnt" class="social-link" aria-label="Twitter">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="https://bsky.app/profile/sirburnt.bsky.social" class="social-link" aria-label="Bluesky">
+                            <i class="fab fa-bluesky"></i>
+                        </a>
+                        <a href="https://sirburnt.carrd.co/" class="social-link" aria-label="Website">
+                            <i class="fa fa-globe"></i>
+                        </a>
+                </div>
+            </div>
+            <div class="tags">
+                <span class="tag tag-sfw">SFW</span>
+                <span class="tag tag-style">Toony</span>
+            </div>
+        </div>
+
+<div class="card">
+            <div class="artist-info">
+                <img src="https://nekotiating.carrd.co/assets/images/image01.png?v=5e1a2467" alt="Artist" class="medium-zoom-image">
+            </div>
+            <div style="
+    display: flex;
+    flex-direction: column;">
+                <span class="name">Nekotiating</span>
+                <div class="social-links">
+                        <a href="https://nekotiating.carrd.co/" class="social-link" aria-label="Website">
+                            <i class="fa fa-globe"></i>
+                        </a>
+                </div>
+            </div>
+            <div class="tags">
+                <span class="tag tag-sfw">SFW</span>
+                <span class="tag tag-style">Toony</span>
             </div>
         </div>
         <-- Cards go above here-->
