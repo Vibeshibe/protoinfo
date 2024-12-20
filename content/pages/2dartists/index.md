@@ -13,11 +13,12 @@ draft = false
 
 .card {
     display: flex;
-    flex-direction: center; /* Stack elements vertically */
-    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
     background-color: #1e1e1e;
     border-radius: 12px;
     padding: 15px;
+    gap: 35px;
     border: 2px solid #ffffff;
     box-sizing: border-box;
 }
@@ -26,7 +27,7 @@ draft = false
     display: flex;
     align-items: center;
     gap: 10px;
-    width: fit-content;
+    width: max-content;
 }
 
 .card .artist-info img {
@@ -44,11 +45,8 @@ draft = false
 
 .card .icons {
     display: flex;
-    align-items: center;
-    justify-content: flex-start; /* Align to the left */
+    justify-content: flex-start;
     gap: 8px;
-    margin-top: 50px; /* Space above icons */
-    margin-left: 60px; /* Align icons under artist name */
     width: fit-content;
 }
 
@@ -62,9 +60,8 @@ draft = false
 
 .tags {
     display: flex;
-    flex-direction: column; /* Tags in a row */
-    gap: 5px; /* Space between tags */
-    margin-top: auto; /* Push tags to the bottom of the card */
+    flex-direction: column;
+    gap: 5px;
 }
 
 .tag {
@@ -93,70 +90,128 @@ draft = false
 }
 </style>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+
 <div class="grid" id="card-grid">
-    <div class="card">
-        <div class="artist-info">
-            <img src="https://via.placeholder.com/50" alt="Artist">
-            <span class="name">Teeeeest</span>
-            <div class="icons">
-                <span style="background-color: #f56;"></span>
-                <span style="background-color: #f90;"></span>
-                <span style="background-color: #09f;"></span>
+<div class="card">
+            <div class="artist-info">
+                <img src="placeholder2.png" alt="Artist" class="medium-zoom-image">
+            </div>
+            <div style="
+    display: flex;
+    flex-direction: column;">
+                <span class="name">Testy1</span>
+                <div class="icons">
+                        <a href="https://t.me/Zenonclaw" class="social-link" aria-label="Telegram">
+                            <i class="fab fa-telegram-plane"></i>
+                        </a>
+                        <a href="https://zenonclaw.tumblr.com" class="social-link" aria-label="Tumblr">
+                            <i class="fab fa-tumblr"></i>
+                        </a>
+                        <a href="https://x.com/zenonclaw" class="social-link" aria-label="Twitter">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                </div>
+            </div>
+            <div class="tags">
+                <span class="tag tag-sfw">SFW</span>
+                <span class="tag tag-style">Realistic</span>
             </div>
         </div>
-        <div class="tags">
-            <span class="tag tag-sfw">SFW</span>
-            <span class="tag tag-nsfw">NSFW</span>
+
+<div class="card">
+            <div class="artist-info">
+                <img src="placeholder.png" alt="Artist" class="medium-zoom-image">
+            </div>
+            <div style="
+    display: flex;
+    flex-direction: column;">
+                <span class="name">Testy2</span>
+                <div class="icons">
+                        <a href="https://t.me/Zenonclaw" class="social-link" aria-label="Telegram">
+                            <i class="fab fa-telegram-plane"></i>
+                        </a>
+                        <a href="https://zenonclaw.tumblr.com" class="social-link" aria-label="Tumblr">
+                            <i class="fab fa-tumblr"></i>
+                        </a>
+                        <a href="https://x.com/zenonclaw" class="social-link" aria-label="Twitter">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                </div>
+            </div>
+            <div class="tags">
+                <span class="tag tag-nsfw">NSFW</span>
+                <span class="tag tag-style">Toony</span>
+            </div>
         </div>
+
+<div class="card">
+            <div class="artist-info">
+                <img src="placeholder.png" alt="Artist" class="medium-zoom-image">
+            </div>
+            <div style="
+    display: flex;
+    flex-direction: column;">
+                <span class="name">Testy3</span>
+                <div class="icons">
+                        <a href="https://t.me/Zenonclaw" class="social-link" aria-label="Telegram">
+                            <i class="fab fa-telegram-plane"></i>
+                        </a>
+                        <a href="https://zenonclaw.tumblr.com" class="social-link" aria-label="Tumblr">
+                            <i class="fab fa-tumblr"></i>
+                        </a>
+                        <a href="https://x.com/zenonclaw" class="social-link" aria-label="Twitter">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                </div>
+            </div>
+            <div class="tags">
+                <span class="tag tag-sfw">SFW</span>
+                <span class="tag tag-style">Toony</span>
+            </div>
+        </div>
+
+<div class="card">
+            <div class="artist-info">
+                <img src="placeholder2.png" alt="Artist" class="medium-zoom-image">
+            </div>
+            <div style="
+    display: flex;
+    flex-direction: column;">
+                <span class="name">Testy4</span>
+                <div class="icons">
+                        <a href="https://t.me/Zenonclaw" class="social-link" aria-label="Telegram">
+                            <i class="fab fa-telegram-plane"></i>
+                        </a>
+                        <a href="https://zenonclaw.tumblr.com" class="social-link" aria-label="Tumblr">
+                            <i class="fab fa-tumblr"></i>
+                        </a>
+                        <a href="https://x.com/zenonclaw" class="social-link" aria-label="Twitter">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                </div>
+            </div>
+            <div class="tags">
+                <span class="tag tag-nsfw">NSFW</span>
+                <span class="tag tag-style">Realistic</span>
+            </div>
+        </div>
+        <-- Cards go above here-->
     </div>
-    <!-- Additional cards here -->
-</div>
 
 <script>
-    // Shuffle function
-    function shuffle(array) {
-        for (let i = array.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [array[i], array[j]] = [array[j], array[i]];
+    document.addEventListener('DOMContentLoaded', function() {
+        const grid = document.querySelector('.grid'); // Get the grid container
+        const cards = Array.from(grid.querySelectorAll('.card')); // Get all the card elements inside the grid
+
+        // Randomly shuffle the array of cards
+        for (let i = cards.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1)); // Get a random index
+            [cards[i], cards[j]] = [cards[j], cards[i]]; // Swap the cards
         }
-    }
 
-    // Example card data (dynamic cards)
-    const cards = [
-        `<div class="card">
-            <div class="artist-info">
-                <img src="placeholder.png" alt="Artist">
-                <span class="name">Weewoothefirst</span>
-            </div>
-            <div class="icons">
-                <span style="background-color: #f56;"></span>
-                <span style="background-color: #f90;"></span>
-                <span style="background-color: #09f;"></span>
-            </div>
-            <div class="tags">
-                <span class="tag tag-sfw">SFW</span>
-                <span class="tag tag-nsfw">NSFW</span>
-            </div>
-        </div>`,
-        `<div class="card">
-            <div class="artist-info">
-                <img src="placeholder2.png" alt="Artist">
-                <span class="name">Colvery</span>
-            </div>
-            <div class="icons">
-                <span style="background-color: #5f5;"></span>
-                <span style="background-color: #ff5;"></span>
-                <span style="background-color: #05f;"></span>
-            </div>
-            <div class="tags">
-                <span class="tag tag-sfw">SFW</span>
-                <span class="tag tag-nsfw">NSFW</span>
-            </div>
-        </div>`
-    ];
-
-    // Shuffle and append dynamic cards
-    const grid = document.getElementById('card-grid');
-    shuffle(cards); // Shuffle the cards array
-    grid.innerHTML += cards.join(''); // Append shuffled cards to the existing ones
+        // Clear the grid and append the shuffled cards
+        grid.innerHTML = '';
+        cards.forEach(card => grid.appendChild(card)); // Append each shuffled card back into the grid
+    });
 </script>
