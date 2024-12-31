@@ -10,14 +10,20 @@ weight = 20
 [[main]]
 name = "2D Artists"
 parent = "Artists / Makers"
-url = "pages/2dartists"
+url = "pages/artistsandmakers/2dartists"
 weight = 10
 
 [[main]]
 name = "3D Artists"
 parent = "Artists / Makers"
-url = "pages/3dartists"
+url = "pages/artistsandmakers/3dartists"
 weight = 20
+
+[[main]]
+name = "Makers"
+parent = "Artists / Makers"
+url = "pages/artistsandmakers/makers"
+weight = 30
 
 [[main]]
 name = "Resources"
