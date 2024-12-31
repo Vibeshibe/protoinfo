@@ -1,33 +1,45 @@
 [[main]]
-name = "Discord"
-url = "https://status.shibabox.eu"
+name = "Official Discord"
+url = "https://discord.gg/zenithsouterreach"
 weight = 10
 
 [[main]]
-name = "Placeholder"
+name = "Artists / Makers"
+weight = 20
+
+[[main]]
+name = "2D Artists"
+parent = "Artists / Makers"
+url = "pages/2dartists"
+weight = 10
+
+[[main]]
+name = "3D Artists"
+parent = "Artists / Makers"
+url = "pages/3dartists"
+weight = 20
+
+[[main]]
+name = "Resources"
 weight = 30
 
 [[main]]
-name = "Maw.Best"
-parent = "Placeholder"
-url = "https://maw.best"
+name = "Lore"
+parent = "Resources"
+url = "pages/lore"
 weight = 10
 
 [[main]]
-name = "Furrcard"
-parent = "Placeholder"
-url = "https://furrcard.com"
-weight = 20
+name = "Art Bases"
+parent = "Resources"
+url = "pages/lore"
+weight = 9
 
 [[main]]
-name = "Placeholder Too"
-weight = 20
-
-[[main]]
-name = "Fediverse"
-parent = "Placeholder Too"
-url = "https://social.shibabox.eu"
-weight = 20
+name = "Guides"
+parent = "Resources"
+url = "pages/guides"
+weight = 8
 
 [[footer]]
 name = "Artwork by YegArtist" 
