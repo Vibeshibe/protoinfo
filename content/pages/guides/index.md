@@ -9,7 +9,7 @@ Please support these amazing people that sat down and made these guides to ensur
 
 This page is WIP, there will be cards here later that guide you to the different guides. For now there's the official ZOR guide below!
 
-{{< button href="gettingstarted/" target="_self" >}}
+{{< button href="/pages/gettingstarted/" target="_self" >}}
 Getting Started!
 {{< /button >}}
 
