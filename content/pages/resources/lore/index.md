@@ -1,6 +1,6 @@
 +++
 title = 'Official Guide / Lore'
-date = 2024-08-12T19:33:18+02:00
+date = 2024-12-24T14:00:00+02:00
 draft = false
 +++
 Exerpt from the official guide (Google Doc)
