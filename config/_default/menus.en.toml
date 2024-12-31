@@ -48,11 +48,18 @@ url = "pages/resources/3dprinting"
 weight = 8
 
 [[footer]]
-name = "Artwork by YegArtist" 
+name = "Artwork by YegArtist"
 url = "https://x.com/AtlasInu"
 weight = 20
 
 [[footer]]
-name = "Logo by SirBurnt" 
+name = "Logo by SirBurnt"
 url = "https://x.com/kodadeer"
 weight = 10
+
+[[footer]]
+name = "Github"
+pre = "github"
+url = "https://github.com/Vibeshibe/protoinfo"
+identifier = "github"
+weight = 9999
