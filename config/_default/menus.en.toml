@@ -26,19 +26,25 @@ weight = 30
 [[main]]
 name = "Lore"
 parent = "Resources"
-url = "pages/lore"
+url = "pages/resources/lore"
 weight = 10
 
 [[main]]
 name = "Art Bases"
 parent = "Resources"
-url = "pages/lore"
+url = "pages/resources/lore"
 weight = 9
 
 [[main]]
 name = "Guides"
 parent = "Resources"
-url = "pages/guides"
+url = "pages/resources/guides"
+weight = 8
+
+[[main]]
+name = "3D Printing"
+parent = "Resources"
+url = "pages/resources/3dprinting"
 weight = 8
 
 [[footer]]
