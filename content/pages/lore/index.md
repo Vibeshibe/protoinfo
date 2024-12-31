@@ -3,7 +3,7 @@ title = 'Official Guide / Lore'
 date = 2024-12-24T14:00:00+02:00
 draft = false
 +++
-Exerpt from the official guide (Google Doc)
+
 ## What is a protogen?
 Pronunciation: /'prəʊtəʊˌdʒen/ | 'Prow-toe-jen'
 
