@@ -9,6 +9,8 @@ disableTextInHeader = false
 giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v8.next.forgejo.org"
 defaultBackgroundImage = "204 MurderousFox_resize.png"
+smartTOC = true
+smartTOCHideUnfocusedChildren = false
 
 [header]
 layout = "fixed"
@@ -40,7 +42,7 @@ showAuthor = false
 showHero = true
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
-showBreadcrumbs = false
+showBreadcrumbs = ""
 showDraftLabel = true
 showEdit = false
 editAppendPath = true
@@ -49,7 +51,7 @@ showHeadingAnchors = true
 showPagination = false
 invertPagination = ""
 showReadingTime = false
-showTableOfContents = false
+showTableOfContents = true
 showTaxonomies = false
 showAuthorsBadges = false
 showWordCount = false
@@ -64,7 +66,7 @@ showBreadcrumbs = false
 showSummary = false
 showViews = false
 showLikes = false
-showTableOfContents = false
+showTableOfContents = true
 showCards = false
 orderByWeight = false
 groupByYear = true
@@ -82,7 +84,7 @@ showHero = false
 showBreadcrumbs = false
 showViews = false
 showLikes = false
-showTableOfContents = false
+showTableOfContents = true
 cardView = false
 heroStyle = "background"
 
@@ -94,7 +96,7 @@ showLikes = false
 showTableOfContents = true
 groupByYear = false
 cardView = false
-cardViewScreenWidth = false
+cardViewScreenWidth = true
 heroStyle = "backround"
 
 [firebase]
