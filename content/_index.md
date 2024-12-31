@@ -21,7 +21,7 @@ draft = false
 This Project was called to life as I got a bit annoyed about how despite popular, the species seemed very niche and I had trouble to find artists to draw my beautiful boy. Adding to that I wanted to build my own Protogen, lacking any ressources to the exact process with tutorials or materials required. So I've decided to gather it all in one place.
  <div class="buttons">
       <div class="grid" style="grid-template-columns: 1fr 1fr;">
-          <a href="https://kai.shibabox.eu" class="btn btn-secondary">
+          <a href="/pages/gettingstarted/" class="btn btn-secondary">
               <i class="fa fa-star"></i> Get Started!
           </a>
           <a href="https://mike.shibabox.eu" class="btn btn-secondary">
