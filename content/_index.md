@@ -22,17 +22,19 @@ This Project was called to life as I got a bit annoyed about how despite popular
  <div class="buttons">
       <div class="grid" style="grid-template-columns: 1fr 1fr;">
           <a href="https://kai.shibabox.eu" class="btn btn-secondary">
-              <i class="far fa-image"></i> Placeholder 1
+              <i class="fa fa-star"></i> Get Started!
           </a>
           <a href="https://mike.shibabox.eu" class="btn btn-secondary">
-              <i class="far fa-image"></i> Placeholder 2
+              <i class="fa fa-book"></i> About
           </a>
       </div>
           <a href="https://ko-fi.com/shibabox" class="btn btn-primary">
-          <i class="fas fa-mug-hot"></i> Placeholder 3
+          <i class="fas fa-mug-hot"></i> Support us!
           </a>
   </div>
 </div>
 </div>
 <br>
 <br>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
