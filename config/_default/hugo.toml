@@ -5,7 +5,7 @@ summaryLength = 0
 buildDrafts = false
 buildFuture = false
 enableEmoji = true
-baseURL = "https://protogens.info"
+baseURL = "https://protogeninfo.pages.dev"
 
 [pagination]
 pagerSize = 100
