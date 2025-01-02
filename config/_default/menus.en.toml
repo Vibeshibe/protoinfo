@@ -32,31 +32,37 @@ weight = 30
 [[main]]
 name = "Lore"
 parent = "Resources"
-url = "/pages/res/lore"
-weight = 10
+url = "/pages/res/protogen/lore"
+weight = 1
 
 [[main]]
-name = "Art Bases"
+name = "FAQ"
 parent = "Resources"
-url = "/pages/res/artbases"
-weight = 9
+url = "/pages/res/protogen/faq"
+weight = 2
 
 [[main]]
 name = "Guides"
 parent = "Resources"
 url = "/pages/res/guides"
-weight = 8
-
-[[main]]
-name = "3D Printing"
-parent = "Resources"
-url = "/pages/res/3dprinting"
-weight = 7
+weight = 3
 
 [[main]]
 name = "Similar Species"
 parent = "Resources"
 url = "/pages/res/species"
+weight = 4
+
+[[main]]
+name = "Art Bases"
+parent = "Resources"
+url = "/pages/res/artbases"
+weight = 5
+
+[[main]]
+name = "3D Printing"
+parent = "Resources"
+url = "/pages/res/3dprinting"
 weight = 6
 
 [[footer]]
