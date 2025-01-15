@@ -16,14 +16,14 @@ draft = false
     flex-direction: column;">
                 <span class="name">CoolKoinu</span>
                 <div class="social-links">
+                        <a href="https://coolkoinu.carrd.co/" class="social-link" aria-label="Website">
+                            <i class="fa fa-globe"></i>
+                        </a>
                         <a href="https://x.com/CoolKoinu" class="social-link" aria-label="Twitter">
                             <i class="fa-brands fa-x-twitter"></i>
                         </a>
                         <a href="https://bsky.app/profile/coolkoinu.bsky.social" class="social-link" aria-label="Bluesky">
                             <i class="fab fa-bluesky"></i>
-                        </a>
-                        <a href="https://coolkoinu.carrd.co/" class="social-link" aria-label="Website">
-                            <i class="fa fa-globe"></i>
                         </a>
                 </div>
             </div>
@@ -65,14 +65,14 @@ draft = false
     flex-direction: column;">
                 <span class="name">SirBurnt</span>
                 <div class="social-links">
+                        <a href="https://sirburnt.carrd.co/" class="social-link" aria-label="Website">
+                            <i class="fa fa-globe"></i>
+                        </a>
                         <a href="https://x.com/Sir_Burnt" class="social-link" aria-label="Twitter">
                             <i class="fa-brands fa-x-twitter"></i>
                         </a>
                         <a href="https://bsky.app/profile/sirburnt.bsky.social" class="social-link" aria-label="Bluesky">
                             <i class="fab fa-bluesky"></i>
-                        </a>
-                        <a href="https://sirburnt.carrd.co/" class="social-link" aria-label="Website">
-                            <i class="fa fa-globe"></i>
                         </a>
                 </div>
             </div>

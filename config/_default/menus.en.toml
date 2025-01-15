@@ -10,19 +10,19 @@ weight = 20
 [[main]]
 name = "2D Artists"
 parent = "Artists / Makers"
-url = "/pages/2dartists"
+url = "/pages/am/2dartists"
 weight = 10
 
 [[main]]
 name = "3D Artists"
 parent = "Artists / Makers"
-url = "/pages/3dartists"
+url = "/pages/am/3dartists"
 weight = 20
 
 [[main]]
 name = "Makers"
 parent = "Artists / Makers"
-url = "/pages/makers"
+url = "/pages/am/makers"
 weight = 30
 
 [[main]]
@@ -32,36 +32,42 @@ weight = 30
 [[main]]
 name = "Lore"
 parent = "Resources"
-url = "/pages/lore"
-weight = 10
+url = "/pages/res/protogen/lore"
+weight = 1
 
 [[main]]
-name = "Art Bases"
+name = "FAQ"
 parent = "Resources"
-url = "/pages/lore"
-weight = 9
+url = "/pages/res/protogen/faq"
+weight = 2
 
 [[main]]
 name = "Guides"
 parent = "Resources"
-url = "/pages/guides"
-weight = 8
-
-[[main]]
-name = "3D Printing"
-parent = "Resources"
-url = "/pages/3dprinting"
-weight = 7
+url = "/pages/res/guides"
+weight = 3
 
 [[main]]
 name = "Similar Species"
 parent = "Resources"
-url = "/pages/species"
+url = "/pages/res/species"
+weight = 4
+
+[[main]]
+name = "Art Bases"
+parent = "Resources"
+url = "/pages/res/artbases"
+weight = 5
+
+[[main]]
+name = "3D Printing"
+parent = "Resources"
+url = "/pages/res/3dprinting"
 weight = 6
 
 [[footer]]
-name = "Artwork by YegArtist"
-url = "https://x.com/Yegartist"
+name = "Backround by RazzleGazzle"
+url = "https://bsky.app/profile/razzlegazz.bsky.social"
 weight = 20
 
 [[footer]]
