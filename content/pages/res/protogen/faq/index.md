@@ -83,13 +83,16 @@ Protogen can feel any normal emotions just like you. The Arcaits in their brain 
 ### How does Arcai work?
 We have specific guides to describe how Arcai works!
 
-{{< button href="gettingstarted/" target="_self" >}}
-Fundementals
-{{< /button >}}
-Padding
-{{< button href="gettingstarted/" target="_self" >}}
-Religion
-{{< /button >}}
+ <div class="buttons">
+      <div class="grid" style="grid-template-columns: 1fr 1fr;">
+          <a href="/pages/res/protogen/arcaifundementals/" class="btn btn-secondary">
+              <i class="fa fa-star"></i> Fundementals
+          </a>
+          <a href="/pages/res/protogen/arcaireligion/" class="btn btn-secondary">
+              <i class="fa fa-book"></i> Religion
+          </a>
+      </div>
+  </div>
 
 ### Do Protogen smell and taste?
 Yes, Protogen are able to detect smells through specialized nanites that have smell receptors. These carry the scent information to the brain much like in humans or animals. Protogen are able to taste but that ability is limited as their taste receptors are fewer in number. Their ability to taste is about half as good as that of a human.
